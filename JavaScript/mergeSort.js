@@ -21,7 +21,6 @@ const merge = (left, right) => {
   return result.concat(left.slice(i)).concat(right.slice(j));
 };
 
-
-console.log(mergeSort([7, 5, 2, 4, 3, 9])); //[2, 3, 4, 5, 7, 9]
-console.log(mergeSort([9, 7, 5, 4, 3, 1])); //[1, 3, 4, 5, 7, 9]
-console.log(mergeSort([1, 2, 3, 4, 5, 6])); //[1, 2, 3, 4, 5, 6]
+mergeSort([7, 5, 2, 4, 3, 9]) // returns [2, 3, 4, 5, 7, 9]
+mergeSort([9, 7, 5, 4, 3, 1]) // returns [1, 3, 4, 5, 7, 9]
+mergeSort([1, 2, 3, 4, 5, 6]) // returns [1, 2, 3, 4, 5, 6]

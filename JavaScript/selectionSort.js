@@ -15,6 +15,6 @@ const selectionSort = (arr) => {
   return arr;
 };
 
-selectionSort([7, 5, 2, 4, 3, 9]); //[2, 3, 4, 5, 7, 9]
-selectionSort([9, 7, 5, 4, 3, 1]); //[1, 3, 4, 5, 7, 9]
-selectionSort([1, 2, 3, 4, 5, 6]); //[1, 2, 3, 4, 5, 6]
+selectionSort([7, 5, 2, 4, 3, 9]); // returns [2, 3, 4, 5, 7, 9]
+selectionSort([9, 7, 5, 4, 3, 1]); // returns [1, 3, 4, 5, 7, 9]
+selectionSort([1, 2, 3, 4, 5, 6]); // returns [1, 2, 3, 4, 5, 6]

@@ -13,6 +13,6 @@ const insertionSort = (arr) => {
   return arr;
 }
 
-insertionSort([7, 5, 2, 4, 3, 9]) //[2, 3, 4, 5, 7, 9]
-insertionSort([9, 7, 5, 4, 3, 1]) //[1, 3, 4, 5, 7, 9]
-insertionSort([1, 2, 3, 4, 5, 6]) //[1, 2, 3, 4, 5, 6]
+insertionSort([7, 5, 2, 4, 3, 9]) // returns [2, 3, 4, 5, 7, 9]
+insertionSort([9, 7, 5, 4, 3, 1]) // returns [1, 3, 4, 5, 7, 9]
+insertionSort([1, 2, 3, 4, 5, 6]) // returns [1, 2, 3, 4, 5, 6]
